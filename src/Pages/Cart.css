@@ -1,0 +1,35 @@
+.cartPage {
+  padding: 30px;
+}
+
+.cartPage h1 {
+  margin-bottom: 20px;
+}
+
+.cartItem {
+  display: flex;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.cartItem img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.cartItem button {
+  margin-top: 10px;
+  background: #ffd814;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.total {
+  margin-top: 20px;
+  color: #b12704;
+}
